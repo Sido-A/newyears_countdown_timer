@@ -36,7 +36,7 @@ h1 {
 .countdown-container {
   display: flex;
   justify-content: space-between;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   width: 70%;
 }
 
@@ -60,7 +60,6 @@ h1 {
     font-size: 2rem;
   }
   .countdown-container {
-    flex-wrap: wrap;
     width: 100%;
   }
 }
