@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  color: #fff;
+  background-image: url("https://images.unsplash.com/photo-1498931299472-f7a63a5a1cfa?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1353&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.countdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "poppins", sans-serif;
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: normal;
+}
+
+.countdown-container {
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  width: 70%;
+}
+
+.big-text {
+  font-size: 6rem;
+  font-weight: bold;
+  line-height: 1;
+  margin: 1rem 2rem;
+}
+
+.countdown-element {
+  text-align: center;
+}
+
+.countdown-element span {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 798px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .countdown-container {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
